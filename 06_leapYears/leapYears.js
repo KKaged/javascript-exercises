@@ -1,10 +1,8 @@
 const leapYears = function (year) {
-  if (year % 4) {
-    console.log("True");
-  } else if (year % 4 && year % 400) {
-    console.log("True");
+  if (year % 4 === 0(year % 100 !== 0 || year % 400 === 0)) {
+    console.log("true");
   } else {
-    console.log("False");
+    console.log("false");
   }
 };
 
