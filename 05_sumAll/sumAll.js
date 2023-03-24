@@ -12,6 +12,5 @@ const sumAll = function (sum1, sum2) {
   }
   return sum;
 };
-
 // Do not edit below this line
 module.exports = sumAll;
